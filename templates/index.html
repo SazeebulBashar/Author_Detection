@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id = "header">Author Detector</h1>
+        {% if result == 1%}
+	        <h2 style="color:rgb(214, 20, 20);">Rabindranath Tagore</h2>
+	    {% elif result == 2%}
+	        <h2 style="color:rgb(235, 34, 235);">Bankimchandra Chattopadhayay</h2>
+        {% elif result == 3%}
+	        <h2 style="color:rgb(60, 13, 189);">Jashim Uddin</h2>
+        {% elif result == 4%}
+	        <h2 style="color:rgb(147, 8, 35);">Kazi Nazrul Islam</h2>
+	    {% endif %}
+        <form method="post" action="/predict">
+            <label id = "label-el"><h3>Enter a Paragraph</h3></label><br>
+            <!-- <input type="text" name="sentence" id = "sentence-el"><br><br> -->
+            <textarea type = "text" name = "sentence" id = "sentence-el" ></textarea> <br><br>
+            <input type="submit" value="Predict" id = "btn-submit"><br><br>
+            
+        </form>
+    </div>
+</body>
+</html>
