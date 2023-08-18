@@ -9,16 +9,11 @@ Now our model will help you to identify the true authorship of the above-mention
 
 
 
-## Deployment
+## Demo
 
-To deploy this project run
+<img src="./webapp_demo.png" width="50%" height="50%"/>
 
-```bash
-  python app.py
-```
-
-Now click on the Deployment server link to open the web app. Bingo, You are done. Now just copy and paste the writings to the input box and click submit to know the authorship and genre (category) of the text.
-
+<img src="./Author_Detection_Demo.gif" width="50%" height="50%"/>
 
 ## Requirements
 
@@ -31,5 +26,16 @@ Things must be installed in your pc:
 
 
 
-## Demo
-<img src="./Author_Detection_Demo.gif" width="50%" height="50%"/>
+## Deployment
+
+To deploy this project go to the Author_Detection directory/folder and open the cmd in that directory.
+Then just run the below command.
+
+```bash
+  python app.py
+```
+
+<img src="./deployment_link_demo.png" width="50%" height="50%"/>
+
+Now click on the Deployment server link (Showing in the green box) to open the web app. Bingo, You are done. Now just copy and paste the writings to the input box and click submit to know the authorship and genre (category) of the text.
+
