@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        #header{
+            font-size:60px;
+        }
+        #result{
+            color: rgb(167, 16, 11);
+            background-color: aliceblue;
+            display: inline-block;
+            padding: 20px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id = "header"><i>Author Detector</i></h1>
+
+        <h1 id="result">{{res}}</h1>
+        
+        <form method="post" action="/predict">
+            <label id = "label-el"><h3>Enter a Paragraph</h3></label><br>
+            <!-- <input type="text" name="sentence" id = "sentence-el"><br><br> -->
+            <textarea type = "text" name = "sentence" id = "sentence-el" ></textarea> <br><br>
+            <input type="submit" value="Predict" id = "btn-submit"><br><br>
+            
+        </form>
+    </div>
+</body>
+</html>
