@@ -11,8 +11,6 @@ Now our model will help you to identify the true authorship of the above-mention
 
 ## Demo
 
-<img src="./webapp_demo.png" width="50%" height="50%"/>
-
 <img src="./Author_Detection_Demo.gif" width="50%" height="50%"/>
 
 ## Requirements
