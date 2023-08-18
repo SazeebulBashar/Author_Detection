@@ -37,3 +37,9 @@ Then just run the below command.
 
 Now click on the Deployment server link (Showing in the green box) to open the web app. Bingo, You are done. Now just copy and paste the writings to the input box and click submit to know the authorship and genre (category) of the text.
 
+<img src="./webapp_demo.png" width="70%" height="70%"/>
+
+
+If Everything is okey then you will see like this.
+Enjoy. Don't forget to give star.
+
